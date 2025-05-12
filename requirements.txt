@@ -1,0 +1,9 @@
+scikit-learn==1.6.1
+matplotlib==3.10.3
+seaborn==0.13.2
+# client
+streamlit==1.45.0
+plotly==6.0.1
+# API
+fastapi==0.115.12
+uvicorn==0.34.2
