@@ -27,7 +27,7 @@ def read_root():
 
 service = Service()
 df = pd.read_csv(r'./data/housing.csv')
-service.train(df=df, test_size=0.2, learning_rate=1e-3, epochs=10000)
+service.train(df=df, test_size=0.2, learning_rate=1e-1, epochs=1000)
     
 @app.post ("/predict", response_model=PredictResponse)
 async def predict(request : PredictRequest):
